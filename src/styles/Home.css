@@ -24,7 +24,7 @@ html {
 .navbar {
   width: 100%;
   padding: 1rem 2rem;
-  background: linear-gradient(to right, #ffffff, #007c70);
+  background: linear-gradient(to right, #ffffff, #004060);
   color: #363636;
   display: flex;
   justify-content: space-between;
@@ -60,7 +60,7 @@ html {
 
 .banner {
   padding: 4rem 2rem;
-  background: linear-gradient(to right, #005969, #00a896);
+  background: linear-gradient(to right, #82b3bc, #004060);
   color: white;
   width: 100%;
 }
@@ -99,7 +99,7 @@ html {
 .section h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #004643;
+  color: #004060;
 }
 
 .section p,
@@ -109,7 +109,7 @@ html {
 
 .footer {
   padding: 1rem;
-  background-color: #004643;
+  background-color: #004060;
   color: white;
   width: 100%;
   text-align: center;

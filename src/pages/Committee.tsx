@@ -1,5 +1,9 @@
 function Committee() {
-  return <></>;
+  return (
+    <>
+      <h1>Committee</h1>
+    </>
+  );
 }
 
 export default Committee;
