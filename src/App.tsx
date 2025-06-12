@@ -12,6 +12,7 @@ const App: React.FC = () => {
           <h1>City St George's ISoc</h1>
         </div>
         <nav>
+          <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#events">Events</a>
           <a href="#committee">Committee</a>
@@ -19,7 +20,7 @@ const App: React.FC = () => {
       </header>
       <img src={cityBanner} className="imagebanner" alt="CityBanner" />
       <section className="banner">
-        <h2>Welcome to Our ISoc</h2>
+        <h2>Welcome to our ISoc</h2>
         <p>Faith. Brotherhood. Community.</p>
         <a href="#about" className="btn">
           Learn More
