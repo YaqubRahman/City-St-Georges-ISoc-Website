@@ -18,7 +18,13 @@ const App: React.FC = () => {
           <a href="#committee">Committee</a>
         </nav>
       </header>
-      <img src={cityBanner} className="imagebanner" alt="CityBanner" />
+      <div className="homecontainer">
+        <img src={cityBanner} className="imagebanner" alt="CityBanner" />
+        <div className="overlay-text">
+          <h2>As-salamu alaykum! Welcome to the City's ISoc website!</h2>
+        </div>
+      </div>
+
       <section className="banner">
         <h2>Welcome to our ISoc</h2>
         <p>Faith. Brotherhood. Community.</p>

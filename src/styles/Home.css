@@ -52,16 +52,36 @@ html {
   font-weight: 500;
 }
 
+.homecontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+}
+
 .imagebanner {
-  background: linear-gradient(to right, #005969, #00a896);
-  color: white;
   width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
 .banner {
   padding: 4rem 2rem;
-  background: linear-gradient(to right, #82b3bc, #004060);
-  color: white;
+  color: rgb(0, 0, 0);
   width: 100%;
 }
 
@@ -114,4 +134,48 @@ html {
   width: 100%;
   text-align: center;
   margin-top: 2rem;
+}
+
+/* Responsive typography */
+@media (max-width: 1400px) {
+  .overlay-text {
+    font-size: 32px;
+  }
+
+  .banner h2 {
+    font-size: 2rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  .section h3 {
+    font-size: 1.5rem;
+  }
+
+  .section p,
+  .section ul {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .homecontainer {
+    flex-direction: column; /* Stack image and text vertically */
+    gap: 1rem;
+  }
+
+  .imagebanner {
+    width: 100%;
+  }
+
+  .overlay-text {
+    position: static; /* Remove absolute positioning */
+    transform: none;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 100%;
+  }
 }
