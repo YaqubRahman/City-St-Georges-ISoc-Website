@@ -76,9 +76,9 @@ html {
 
 .overlay-text {
   font-family: "Space Grotesk", sans-serif;
-  height: 50%;
+  height: 35%;
   width: 80%;
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -91,7 +91,7 @@ html {
   -webkit-backdrop-filter: blur(10px);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  color: #192a31;
+  color: #ffffff;
 }
 
 .banner {
@@ -123,6 +123,35 @@ html {
 
 .btn:hover {
   background-color: #e09b23;
+}
+
+.sectioncitylogomain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* makes it responsive on smaller screens */
+  padding: 2rem;
+}
+
+.sectiontextcitylogomain {
+  flex: 1 1 300px; /* grow, shrink, min width */
+  padding: 0;
+  font-size: 20px;
+}
+
+.citylogomain {
+  flex: 0 1 250px; /* do not grow, allow shrinking */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.citylogomain img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .section {

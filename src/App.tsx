@@ -1,23 +1,13 @@
 import React from "react";
 import "./styles/Home.css";
-import cityBanner from "./images/citybanner2.jpg";
+import cityBanner from "./images/citybanner2darkened.jpg";
 import isocLogo from "./images/Isoclogo2.png";
+import Navbar from "./components/Navbar";
 
 const App: React.FC = () => {
   return (
     <div className="hero">
-      <header className="navbar">
-        <div className="branding">
-          <img src={isocLogo} className="logo" alt="CityBanner" />
-          <h1>City St George's ISoc</h1>
-        </div>
-        <nav>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#events">Events</a>
-          <a href="#committee">Committee</a>
-        </nav>
-      </header>
+      <Navbar />
       <div className="homecontainer">
         <img src={cityBanner} className="imagebanner" alt="CityBanner" />
         <div className="overlay-text">
@@ -33,21 +23,26 @@ const App: React.FC = () => {
         </a>
       </section>
 
-      <section id="about" className="section">
-        <h3>About Us</h3>
-        <p>
-          We are the Islamic Society at City St George's. Our goal is to foster
-          a welcoming environment for all students and promote Islamic values on
-          campus.
-        </p>
-      </section>
+      <div className="sectioncitylogomain">
+        <section id="about" className="sectiontextcitylogomain">
+          <h3>About Us</h3>
+          <p>
+            We are the Islamic Society at City St George's. Our goal is to
+            foster a welcoming environment for all students and promote Islamic
+            values on campus.
+          </p>
+        </section>
 
+        <div className="citylogomain">
+          <img src={isocLogo} alt="CityBanner" />
+        </div>
+      </div>
       <section id="events" className="section">
         <h3>Upcoming Events</h3>
         <ul>
-          <li>🕌 Friday Prayer – Every Friday 1:15 PM</li>
-          <li>🤝 Meet & Greet – Sept 15th</li>
-          <li>🍽 Charity Dinner – Oct 3rd</li>
+          <p>🕌 Friday Prayer – Every Friday 1:15 PM</p>
+          <p>🎁 Palestine Charity Event – Sept 15th</p>
+          <p>🤝 Brothers Circle – Oct 3rd</p>
         </ul>
       </section>
 
