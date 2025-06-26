@@ -75,7 +75,7 @@ html {
 }
 
 .overlay-text {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 35%;
   width: 80%;
   font-size: 30px;
@@ -126,6 +126,7 @@ html {
 }
 
 .sectioncitylogomain {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -133,6 +134,8 @@ html {
   gap: 2rem;
   flex-wrap: wrap; /* makes it responsive on smaller screens */
   padding: 2rem;
+  background: linear-gradient(to bottom right, #ffffff4d, #dbecff);
+  backdrop-filter: blur(4px);
 }
 
 .sectiontextcitylogomain {
@@ -155,6 +158,7 @@ html {
 }
 
 .section {
+  font-family: "Poppins", sans-serif;
   padding: 3rem 2rem;
   max-width: 800px;
   width: 100%;
@@ -172,6 +176,7 @@ html {
 }
 
 .footer {
+  font-family: "Poppins", sans-serif;
   padding: 1rem;
   background-color: #004060;
   color: white;
