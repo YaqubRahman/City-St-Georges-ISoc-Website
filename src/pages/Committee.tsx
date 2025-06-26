@@ -1,4 +1,3 @@
-import isocLogo from "../images/Isoclogo2.png";
 import Navbar from "../components/Navbar";
 import "../styles/Committee.css";
 import ArhaamPhoto from "../images/ArhaamPhoto.jpeg";

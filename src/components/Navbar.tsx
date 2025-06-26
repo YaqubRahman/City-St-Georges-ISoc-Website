@@ -12,6 +12,7 @@ function Navbar() {
         <a href="#about">About</a>
         <a href="#events">Events</a>
         <a href="#committee">Committee</a>
+        <a href="#feedback">Feedback</a>
       </nav>
     </header>
   );
