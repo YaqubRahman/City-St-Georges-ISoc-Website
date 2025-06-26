@@ -7,7 +7,7 @@ function Navbar() {
         <img src={isocLogo} className="logo" alt="CityBanner" />
         <h1>City St George's ISoc</h1>
       </div>
-      <nav>
+      <nav className="nav-links">
         <a href="#">Home</a>
         <a href="#about">About</a>
         <a href="#events">Events</a>

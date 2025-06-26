@@ -39,6 +39,13 @@ html {
   z-index: 1000;
 }
 
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: flex-end;
+}
+
 .branding {
   display: flex;
   align-items: center;
@@ -136,6 +143,8 @@ html {
   padding: 2rem;
   background: linear-gradient(to bottom right, #ffffff4d, #dbecff);
   backdrop-filter: blur(4px);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .sectiontextcitylogomain {
@@ -188,7 +197,7 @@ html {
 /* Responsive typography */
 @media (max-width: 1400px) {
   .overlay-text {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .banner h2 {
@@ -208,6 +217,17 @@ html {
     font-size: 1rem;
   }
 }
+@media (max-width: 1200px) {
+  .overlay-text {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .overlay-text {
+    font-size: 24px;
+  }
+}
 
 @media (max-width: 1000px) {
   .homecontainer {
@@ -222,9 +242,13 @@ html {
   .overlay-text {
     position: static; /* Remove absolute positioning */
     transform: none;
-    background: rgba(0, 0, 0, 0.7);
+    color: #000;
+    background: linear-gradient(to bottom right, #ffffff4d, #dbecff);
+    backdrop-filter: blur(4px);
     font-size: 1.2rem;
     padding: 1rem;
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 }
