@@ -3,3 +3,32 @@
   padding: 50px;
   font-family: "Poppins", sans-serif;
 }
+
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.events-box {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  font-size: 30px;
+  margin-top: 10px;
+  padding: 10px;
+  margin: 20px;
+  background: linear-gradient(to bottom right, #ffffff4d, #dbecff);
+  backdrop-filter: blur(4px);
+}
+
+.events-text {
+  padding: 20px;
+  display: flex;
+}
+
+.events-image {
+  margin: 10px;
+  width: 140px;
+}

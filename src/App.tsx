@@ -44,6 +44,9 @@ const App: React.FC = () => {
           <p>🎁 Palestine Charity Event – Sept 15th</p>
           <p>🤝 Brothers Circle – Oct 3rd</p>
         </ul>
+        <a href="#Events" className="btn">
+          Events Page
+        </a>
       </section>
 
       <section id="contact" className="section">

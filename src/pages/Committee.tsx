@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import "../styles/Committee.css";
 import ArhaamPhoto from "../images/ArhaamPhoto.jpeg";
+import StockPfpImage from "../images/StockPfpImage.png";
 
 function Committee() {
   return (
@@ -19,10 +20,14 @@ function Committee() {
           <div className="committee-text"></div>
         </div>
         <div className="committee-box">
-          <p>ISoc Vice President</p>
+          <p>ISoc Vice President:</p>
+          <p>Name Surname</p>
+          <img src={StockPfpImage} className="photo" alt="StockPhoto" />
         </div>
         <div className="committee-box">
-          <p>ISoc Vice President</p>
+          <p>ISoc Media Officer:</p>
+          <p>Name Surname</p>
+          <img src={StockPfpImage} className="photo" alt="StockPhoto" />
         </div>
       </div>
     </>
