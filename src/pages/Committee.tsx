@@ -6,9 +6,7 @@ import StockPfpImage from "../images/StockPfpImage.png";
 function Committee() {
   return (
     <>
-      <div className="hero">
-        <Navbar />
-      </div>
+      <Navbar />
       <div className="title">
         <h1>Committee</h1>
       </div>

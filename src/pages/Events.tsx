@@ -5,9 +5,7 @@ import PalestineCharityImage from "../images/PalestineCharityImage.png";
 function Events() {
   return (
     <>
-      <div className="hero">
-        <Navbar />
-      </div>
+      <Navbar />
       <div className="title">
         <h1>Events</h1>
       </div>

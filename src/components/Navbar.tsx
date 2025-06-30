@@ -1,4 +1,5 @@
 import isocLogo from "../images/Isoclogo2.png";
+import "../styles/Navbar.css";
 
 function Navbar() {
   return (
