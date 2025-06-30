@@ -32,3 +32,30 @@
   margin: 10px;
   width: 140px;
 }
+
+@media (max-width: 455px) {
+  .events-box {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .events-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .events-box {
+    font-size: 24px;
+    width: 90%;
+  }
+
+  .events-text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .events-image {
+    width: 120px;
+  }
+}
